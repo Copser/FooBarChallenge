@@ -5,7 +5,8 @@ defmodule Mix.Tasks.FooBar do
   alias FooBar
 
   @doc """
-  Calls FooBar.play/1 which will calculate FooBar Challenge
+  Calls FooBar.play/1 which will genarate a list of 100 numbers and
+  call FooBar.play/1 to calculate FooBar Challenge
   """
   def run(_) do
     Mix.Task.run("app.start")
